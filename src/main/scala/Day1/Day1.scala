@@ -1,5 +1,6 @@
 package Day1
 
+import scala.annotation.tailrec
 import scala.io.Source
 
 object Day1 extends App {
@@ -8,6 +9,7 @@ object Day1 extends App {
   println("Ex1: " + increaseCounter(numbersList))
   println("Ex2: " + increaseCounterOnThreeNumbersSum(numbersList))
 
+  @tailrec
   def increaseCounter(numbersList: List[Int], previousNumber: Int = numbersList.head, counter: Int = 0): Int = {
     if (numbersList.isEmpty) counter
     else {
@@ -16,6 +18,7 @@ object Day1 extends App {
     }
   }
 
+  @tailrec
   def increaseCounterOnThreeNumbersSum(numbersList: List[Int], previousNumberSum: Int = numbersList.head + numbersList(1) + numbersList(2), counter: Int = 0): Int = {
     if (numbersList.size <= 2) counter
     else {
