@@ -14,10 +14,10 @@ object Day2 extends App {
     if(movesList.isEmpty) horizontalValue * depthValue
     else{
       val move = movesList.head.split(" ")
-      if(move.head.equals("forward")) getPosition(movesList.tail, horizontalValue + move(1).toInt, depthValue)
-      else{
-        if(move.head.equals("down")) getPosition(movesList.tail, horizontalValue, depthValue + move(1).toInt)
-        else getPosition(movesList.tail, horizontalValue, depthValue - move(1).toInt)
+      move.head match {
+        case "forward" => getPosition(movesList.tail, horizontalValue + move(1).toInt, depthValue)
+        case "down" => getPosition(movesList.tail, horizontalValue, depthValue + move(1).toInt)
+        case "up" => getPosition(movesList.tail, horizontalValue, depthValue - move(1).toInt)
       }
     }
   }
@@ -27,10 +27,10 @@ object Day2 extends App {
     if(movesList.isEmpty) horizontalValue * depthValue
     else{
       val move = movesList.head.split(" ")
-      if(move.head.equals("forward")) getPositionWithAim(movesList.tail, horizontalValue + move(1).toInt, depthValue + move(1).toInt* aimValue, aimValue)
-      else{
-        if(move.head.equals("down")) getPositionWithAim(movesList.tail, horizontalValue, depthValue, aimValue + move(1).toInt)
-        else getPositionWithAim(movesList.tail, horizontalValue, depthValue, aimValue - move(1).toInt)
+      move.head match {
+        case "forward" => getPositionWithAim(movesList.tail, horizontalValue + move(1).toInt, depthValue + move(1).toInt* aimValue, aimValue)
+        case "down" => getPositionWithAim(movesList.tail, horizontalValue, depthValue, aimValue + move(1).toInt)
+        case "up" => getPositionWithAim(movesList.tail, horizontalValue, depthValue, aimValue - move(1).toInt)
       }
     }
   }
