@@ -40,21 +40,9 @@ object Day4 extends App {
     val lastBingoVerified = BingoVerification.verifyLastBingo(checkedCards)
     if(lastBingoVerified.nonEmpty) getLastBingo(bingo.tail, lastBingoVerified)
     else {
-      val lastBingoCard = checkLastBingoCard(bingo, cards)
+      val lastBingoCard = NumberCheck.checkLastBingoCard(bingo, cards)
       val cardUnmarkedNumbers = BingoSum.getCardUnmarkedNumbers(lastBingoCard)
       BingoSum.getBingoSum(cardUnmarkedNumbers, bingo.head)
     }
   }
-
-  @tailrec
-  def checkLastBingoCard(bingo: List[String], cards: List[List[List[String]]]): List[List[String]] = {
-    val checkedCard = NumberCheck.checkCards(bingo.head, cards)
-    val lastCardHasBingo = BingoVerification.verifyBingo(checkedCard)
-    if(lastCardHasBingo.nonEmpty) lastCardHasBingo
-    else checkLastBingoCard(bingo.tail, checkedCard)
-
-  }
-
-  // ------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 }

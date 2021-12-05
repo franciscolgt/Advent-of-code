@@ -31,4 +31,12 @@ object NumberCheck {
     }
   }
 
+  @tailrec
+  def checkLastBingoCard(bingo: List[String], cards: List[List[List[String]]]): List[List[String]] = {
+    val checkedCard = NumberCheck.checkCards(bingo.head, cards)
+    val lastCardHasBingo = BingoVerification.verifyBingo(checkedCard)
+    if(lastCardHasBingo.nonEmpty) lastCardHasBingo
+    else checkLastBingoCard(bingo.tail, checkedCard)
+  }
+
 }
