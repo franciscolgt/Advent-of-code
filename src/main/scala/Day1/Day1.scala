@@ -6,8 +6,12 @@ import scala.io.Source
 object Day1 extends App {
 
   val numbersList = Source.fromResource("Day1/input.txt").getLines().toList.map(s => s.toInt)
+  val d1 = System.nanoTime
   println("Ex1: " + increaseCounter(numbersList))
+  println("Ex1 time: " + (System.nanoTime - d1) / 1e6d + " ms")
+  val d2 = System.nanoTime
   println("Ex2: " + increaseCounterOnThreeNumbersSum(numbersList))
+  println("Ex2 time: " + (System.nanoTime - d2) / 1e6d + " ms")
 
   @tailrec
   def increaseCounter(numbersList: List[Int], previousNumber: Int = numbersList.head, counter: Int = 0): Int = {

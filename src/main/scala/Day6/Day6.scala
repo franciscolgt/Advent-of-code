@@ -26,8 +26,12 @@ object Day6 extends App {
   }
 
   // Exercises
+  val d1 = System.nanoTime
   println("Ex1: " + getLanternFishCount(numbersList, 80))
+  println("Ex1 time: " + (System.nanoTime - d1) / 1e6d + " ms")
+  val d2 = System.nanoTime
   println("Ex2: " + getLanternFishCount(numbersList, 256))
+  println("Ex2 time: " + (System.nanoTime - d2) / 1e6d + " ms")
 
   @tailrec
   def getLanternFishCount(numbersCountList: List[Long], limitDay: Int, day: Int = 0): Long = {

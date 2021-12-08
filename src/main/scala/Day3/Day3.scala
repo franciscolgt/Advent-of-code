@@ -8,7 +8,9 @@ object Day3 extends App{
 
   val numbersList = Source.fromResource("Day3/input.txt").getLines().toList
 
+  val d1 = System.nanoTime
   println("Ex1: " + binaryDiagnostic(numbersList))
+  println("Ex1 time: " + (System.nanoTime - d1) / 1e6d + " ms")
 
   @tailrec
   def binaryDiagnostic(numbersList: List[String], countList: List[(Int, Int)] = List()): Int = {
@@ -57,7 +59,10 @@ object Day3 extends App{
 
   // ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+  val d2 = System.nanoTime
   println("Ex2: " + lifeSupportRating(numbersList))
+  println("Ex2 time: " + (System.nanoTime - d2) / 1e6d + " ms")
+
 
   def lifeSupportRating(numbersList: List[String]): Int = {
     val oxygenRating = getRating(highest = true, numbersList)

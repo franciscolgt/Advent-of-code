@@ -6,8 +6,13 @@ import scala.io.Source
 object Day2 extends App {
 
   val movesList = Source.fromResource("Day2/input.txt").getLines().toList
+
+  val d1 = System.nanoTime
   println("Ex1: " + getPosition(movesList))
+  println("Ex1 time: " + (System.nanoTime - d1) / 1e6d + " ms")
+  val d2 = System.nanoTime
   println("Ex2: " + getPositionWithAim(movesList))
+  println("Ex2 time: " + (System.nanoTime - d2) / 1e6d + " ms")
 
   @tailrec
   def getPosition(movesList: List[String], horizontalValue: Int = 0, depthValue: Int = 0): Int = {

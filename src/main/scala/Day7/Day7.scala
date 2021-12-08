@@ -11,8 +11,12 @@ object Day7 extends App {
   val numbersList = numbersString.split(",").toList.map(s => s.toInt)
 
   // Exercises
+  val d1 = System.nanoTime
   println("Ex1: " + getFuelSpentOnAlignment(numbersList))
+  println("Ex1 time: " + (System.nanoTime - d1) / 1e6d + " ms")
+  val d2 = System.nanoTime
   println("Ex2: " + getFuelSpentOnAlignmentWithIncrease(numbersList))
+  println("Ex2 time: " + (System.nanoTime - d2) / 1e6d + " ms")
 
   def getFuelSpentOnAlignment(numbersList: List[Int]): Int ={
     val median = getMedian(numbersList)

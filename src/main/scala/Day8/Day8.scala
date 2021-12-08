@@ -1,5 +1,6 @@
 package Day8
 
+import java.util.concurrent.TimeUnit
 import scala.annotation.tailrec
 import scala.collection.convert.ImplicitConversions.`collection asJava`
 import scala.io.Source
@@ -17,7 +18,7 @@ object Day8 extends App {
   println("Ex1 time: " + (System.nanoTime - d1) / 1e6d + " ms")
   val d2 = System.nanoTime
   println("Ex2: " + findAllDigits(digitsList))
-  println("Ex1 time: " + (System.nanoTime - d2) / 1e6d + " ms")
+  println("Ex2 time: " + (System.nanoTime - d2) / 1e6d + " ms")
 
   @tailrec
   def countSimpleDigits(digitsList: List[List[List[String]]], total: Int = 0): Int = {

@@ -10,8 +10,12 @@ object Day4 extends App {
   val bingo = source.head.split(",").toList
   val cards = getCards(source.tail.tail)
 
+  val d1 = System.nanoTime
   println("Ex1: " + getBingo(bingo, cards))
+  println("Ex1 time: " + (System.nanoTime - d1) / 1e6d + " ms")
+  val d2 = System.nanoTime
   println("Ex2: " + getLastBingo(bingo, cards))
+  println("Ex2 time: " + (System.nanoTime - d2) / 1e6d + " ms")
 
   @tailrec
   def getCards(numbersList: List[String], cardsList: List[List[List[String]]] = List(), card: List[List[String]] = List()): List[List[List[String]]] = {

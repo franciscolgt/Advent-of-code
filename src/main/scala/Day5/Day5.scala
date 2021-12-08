@@ -21,8 +21,12 @@ object Day5 extends App {
   }
 
   // Exercises
+  val d1 = System.nanoTime
   println("Ex1: " + numberOfPointsLinesOverlap(coordsList))
+  println("Ex1 time: " + (System.nanoTime - d1) / 1e6d + " ms")
+  val d2 = System.nanoTime
   println("Ex2: " + numberOfPointsLinesOverlapWithDiagonal(coordsList))
+  println("Ex2 time: " + (System.nanoTime - d2) / 1e6d + " ms")
 
   @tailrec
   def numberOfPointsLinesOverlap(coordsList: List[List[(Int, Int)]], linesOverlap: List[(Int, Int, Int)] = List()): Int = {
