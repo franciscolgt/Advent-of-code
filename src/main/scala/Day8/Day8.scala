@@ -1,6 +1,5 @@
 package Day8
 
-import java.util.concurrent.TimeUnit
 import scala.annotation.tailrec
 import scala.collection.convert.ImplicitConversions.`collection asJava`
 import scala.io.Source
@@ -10,7 +9,7 @@ object Day8 extends App {
 
   // Setup
   val inputStrings = Source.fromResource("Day8/input.txt").getLines().toList
-  val digitsList = inputStrings.map(str => str.split((" \\| ")).toList.map(s => s.split(" ").toList))//.map(s => s.split(" ").toList)
+  val digitsList = inputStrings.map(str => str.split((" \\| ")).toList.map(s => s.split(" ").toList))
 
   // Exercises
   val d1 = System.nanoTime
@@ -32,6 +31,7 @@ object Day8 extends App {
     }
   }
 
+  @tailrec
   def findAllDigits(digitsList: List[List[List[String]]], total: Int = 0): Int = {
     if(digitsList.isEmpty) total
     else {
