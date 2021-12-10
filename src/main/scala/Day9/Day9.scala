@@ -107,7 +107,6 @@ object Day9 extends App {
       val orderedBasins = basins.sorted.reverse
       orderedBasins.head * orderedBasins(1) * orderedBasins(2)
     }
-    // Get three biggest
     else{
       val basinsOnLine = checkBasinOnLine(numbersList, yIndex)
       getLargestBasins(basinsOnLine._1, yIndex + 1, basins ::: basinsOnLine._2)
