@@ -750,3 +750,442 @@ WARNING: Unmatched cancel notification for request id 3908
 2022.12.05 15:10:58 INFO  Attaching to debuggee VM succeeded.
 2022.12.05 15:10:59 INFO  Canceling debug proxy for [Day1.Day1]
 2022.12.05 15:10:58 INFO  Closing debug server tcp://0.0.0.0:52022
+2022.12.05 15:17:07 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:17:07 INFO  time: compiled root-2022 in 0.18s
+2022.12.05 15:17:07 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:17:08 INFO  time: compiled root-2022 in 0.14s
+2022.12.05 15:17:14 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:17:14 INFO  time: compiled root-2022 in 0.57s
+2022.12.05 15:17:24 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:17:24 INFO  time: compiled root-2022 in 0.61s
+2022.12.05 15:18:53 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:18:53 INFO  time: compiled root-2022 in 82ms
+Exception in thread "pool-4-thread-15" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.05 15:19:18 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:19:18 INFO  time: compiled root-2022 in 0.13s
+2022.12.05 15:19:48 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:19:48 INFO  time: compiled root-2022 in 70ms
+Exception in thread "pool-4-thread-16" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.05 15:20:11 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:20:11 INFO  time: compiled root-2022 in 64ms
+Dec 05, 2022 3:20:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4339
+2022.12.05 15:20:36 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:20:36 INFO  time: compiled root-2022 in 0.13s
+2022.12.05 15:20:42 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:20:42 INFO  time: compiled root-2022 in 75ms
+2022.12.05 15:21:43 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:21:43 INFO  time: compiled root-2022 in 74ms
+Dec 05, 2022 3:22:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4521
+Dec 05, 2022 3:22:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4527
+2022.12.05 15:22:28 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day2/Day2.scala:31: error: [dialect scala213] illegal start of simple expression
+    }
+    ^
+2022.12.05 15:22:37 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:22:37 INFO  time: compiled root-2022 in 39ms
+2022.12.05 15:23:04 WARN  no build target for: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day2/Day2.scala
+Dec 05, 2022 3:23:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4648
+2022.12.05 15:23:10 WARN  no build target for: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day2/Day2.scala
+Exception in thread "pool-4-thread-17" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-18" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-19" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Dec 05, 2022 3:23:54 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.12.05 15:24:04 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:24:04 INFO  time: compiled root-2022 in 72ms
+2022.12.05 15:24:16 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:24:16 INFO  time: compiled root-2022 in 54ms
+Dec 05, 2022 3:24:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4860
+Dec 05, 2022 3:24:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4880
+2022.12.05 15:24:35 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:24:35 INFO  time: compiled root-2022 in 28ms
+2022.12.05 15:24:49 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:24:49 INFO  time: compiled root-2022 in 70ms
+2022.12.05 15:24:56 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:24:56 INFO  time: compiled root-2022 in 66ms
+2022.12.05 15:25:01 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:25:01 INFO  time: compiled root-2022 in 74ms
+2022.12.05 15:25:10 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:25:10 INFO  time: compiled root-2022 in 45ms
+2022.12.05 15:25:20 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:25:20 INFO  time: compiled root-2022 in 70ms
+Dec 05, 2022 3:25:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4962
+2022.12.05 15:25:22 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:25:22 INFO  time: compiled root-2022 in 85ms
+2022.12.05 15:25:28 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:25:28 INFO  time: compiled root-2022 in 62ms
+2022.12.05 15:25:31 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:25:31 INFO  time: compiled root-2022 in 73ms
+2022.12.05 15:25:38 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:25:38 INFO  time: compiled root-2022 in 50ms
+Dec 05, 2022 3:25:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5018
+2022.12.05 15:26:02 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:26:02 INFO  time: compiled root-2022 in 76ms
+Exception in thread "pool-4-thread-20" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.05 15:26:51 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:26:51 INFO  time: compiled root-2022 in 61ms
+Exception in thread "pool-4-thread-21" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.05 15:27:06 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:27:06 INFO  time: compiled root-2022 in 0.13s
+2022.12.05 15:29:32 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:29:32 INFO  time: compiled root-2022 in 0.13s
+Dec 05, 2022 3:29:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5423
+2022.12.05 15:29:40 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:29:40 INFO  time: compiled root-2022 in 0.77s
+2022.12.05 15:29:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:29:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:29:42 INFO  Starting debug proxy for [Day2.Day2]
+2022.12.05 15:29:42 INFO  Trying to attach to remote debuggee VM localhost:52469 .
+2022.12.05 15:29:42 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:29:42 ERROR Exception in thread "main" scala.MatchError: A (of class java.lang.String)
+2022.12.05 15:29:42 ERROR 	at Day2.Day2$.strategyScore(Day2.scala:33)
+2022.12.05 15:29:42 ERROR 	at Day2.Day2$.delayedEndpoint$Day2$Day2$1(Day2.scala:12)
+2022.12.05 15:29:42 ERROR 	at Day2.Day2$delayedInit$body.apply(Day2.scala:6)
+2022.12.05 15:29:42 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2022.12.05 15:29:42 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2022.12.05 15:29:42 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2022.12.05 15:29:42 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2022.12.05 15:29:42 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2022.12.05 15:29:42 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2022.12.05 15:29:42 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2022.12.05 15:29:42 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2022.12.05 15:29:42 ERROR 	at scala.App.main(App.scala:76)
+2022.12.05 15:29:42 ERROR 	at scala.App.main$(App.scala:74)
+2022.12.05 15:29:42 ERROR 	at Day2.Day2$.main(Day2.scala:6)
+2022.12.05 15:29:42 ERROR 	at Day2.Day2.main(Day2.scala)
+2022.12.05 15:29:42 INFO  Closing debug server tcp://0.0.0.0:52465
+Dec 05, 2022 3:29:43 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+INFO: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:69)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022.12.05 15:29:43 INFO  Canceling debug proxy for [Day2.Day2]
+2022.12.05 15:29:55 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:29:55 INFO  time: compiled root-2022 in 0.6s
+2022.12.05 15:29:55 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 1h 1m 8.767s)
+2022.12.05 15:29:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:29:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:29:56 INFO  Starting debug proxy for [Day2.Day2]
+2022.12.05 15:29:56 INFO  Trying to attach to remote debuggee VM localhost:52486 .
+2022.12.05 15:29:56 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:29:56 ERROR Exception in thread "main" scala.MatchError:   (of class java.lang.String)
+2022.12.05 15:29:56 ERROR 	at Day2.Day2$.strategyScore(Day2.scala:33)
+2022.12.05 15:29:56 ERROR 	at Day2.Day2$.delayedEndpoint$Day2$Day2$1(Day2.scala:12)
+2022.12.05 15:29:56 ERROR 	at Day2.Day2$delayedInit$body.apply(Day2.scala:6)
+2022.12.05 15:29:56 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2022.12.05 15:29:56 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2022.12.05 15:29:56 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2022.12.05 15:29:56 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2022.12.05 15:29:56 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2022.12.05 15:29:56 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2022.12.05 15:29:56 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2022.12.05 15:29:56 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2022.12.05 15:29:56 ERROR 	at scala.App.main(App.scala:76)
+2022.12.05 15:29:56 ERROR 	at scala.App.main$(App.scala:74)
+2022.12.05 15:29:56 ERROR 	at Day2.Day2$.main(Day2.scala:6)
+2022.12.05 15:29:56 ERROR 	at Day2.Day2.main(Day2.scala)
+2022.12.05 15:29:57 INFO  Canceling debug proxy for [Day2.Day2]
+2022.12.05 15:29:56 INFO  Closing debug server tcp://0.0.0.0:52482
+2022.12.05 15:30:46 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:30:48 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 1h 2m 0.839s)
+2022.12.05 15:30:48 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:30:49 INFO  time: compiled root-2022 in 1.05s
+2022.12.05 15:30:49 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 1h 2m 1.941s)
+2022.12.05 15:30:49 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:30:49 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:30:49 INFO  Starting debug proxy for [Day2.Day2]
+2022.12.05 15:30:49 INFO  Trying to attach to remote debuggee VM localhost:52520 .
+2022.12.05 15:30:49 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:30:50 ERROR Exception in thread "main" scala.MatchError:   (of class java.lang.String)
+2022.12.05 15:30:50 ERROR 	at Day2.Day2$.strategyScore(Day2.scala:34)
+2022.12.05 15:30:50 ERROR 	at Day2.Day2$.delayedEndpoint$Day2$Day2$1(Day2.scala:12)
+2022.12.05 15:30:50 ERROR 	at Day2.Day2$delayedInit$body.apply(Day2.scala:6)
+2022.12.05 15:30:50 ERROR 	at scala.Function0.apply$mcV$sp(Function0.scala:39)
+2022.12.05 15:30:50 ERROR 	at scala.Function0.apply$mcV$sp$(Function0.scala:39)
+2022.12.05 15:30:50 ERROR 	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)
+2022.12.05 15:30:50 ERROR 	at scala.App.$anonfun$main$1(App.scala:76)
+2022.12.05 15:30:50 ERROR 	at scala.App.$anonfun$main$1$adapted(App.scala:76)
+2022.12.05 15:30:50 ERROR 	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+2022.12.05 15:30:50 ERROR 	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+2022.12.05 15:30:50 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:926)
+2022.12.05 15:30:50 ERROR 	at scala.App.main(App.scala:76)
+2022.12.05 15:30:50 ERROR 	at scala.App.main$(App.scala:74)
+2022.12.05 15:30:50 ERROR 	at Day2.Day2$.main(Day2.scala:6)
+2022.12.05 15:30:50 ERROR 	at Day2.Day2.main(Day2.scala)
+2022.12.05 15:30:50 INFO  Closing debug server tcp://0.0.0.0:52515
+2022.12.05 15:30:50 INFO  Canceling debug proxy for [Day2.Day2]
+2022.12.05 15:31:01 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:31:01 INFO  time: compiled root-2022 in 0.44s
+2022.12.05 15:31:01 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day2/Day2.scala
+Dec 05, 2022 3:31:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:873)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:410)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.12.05 15:31:02 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:31:02 INFO  time: compiled root-2022 in 0.14s
+2022.12.05 15:31:03 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day2/Day2.scala
+2022.12.05 15:31:03 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day2/Day2.scala
+Dec 05, 2022 3:31:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5618
+2022.12.05 15:31:04 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day2/Day2.scala
+2022.12.05 15:31:04 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day2/Day2.scala
+2022.12.05 15:31:04 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day2/Day2.scala
+2022.12.05 15:31:05 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day2/Day2.scala
+2022.12.05 15:31:06 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:31:06 INFO  time: compiled root-2022 in 0.68s
+2022.12.05 15:31:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:31:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:31:08 INFO  Starting debug proxy for [Day2.Day2]
+2022.12.05 15:31:09 INFO  Trying to attach to remote debuggee VM localhost:52546 .
+2022.12.05 15:31:09 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:31:09 INFO  Closing debug server tcp://0.0.0.0:52542
+Dec 05, 2022 3:31:10 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+INFO: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:69)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022.12.05 15:31:10 INFO  Canceling debug proxy for [Day2.Day2]
+2022.12.05 15:31:14 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:31:14 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 1h 2m 27.606s)
+2022.12.05 15:31:14 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:31:14 INFO  time: compiled root-2022 in 0.53s
+2022.12.05 15:31:14 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 1h 2m 28.145s)
+2022.12.05 15:31:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:31:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:31:15 INFO  Starting debug proxy for [Day2.Day2]
+2022.12.05 15:31:16 INFO  Trying to attach to remote debuggee VM localhost:52563 .
+2022.12.05 15:31:16 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:31:16 INFO  Canceling debug proxy for [Day2.Day2]
+2022.12.05 15:31:16 INFO  Closing debug server tcp://0.0.0.0:52559
+2022.12.05 15:32:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:32:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:32:12 INFO  Starting debug proxy for [Day2.Day2]
+2022.12.05 15:32:12 INFO  Trying to attach to remote debuggee VM localhost:52582 .
+2022.12.05 15:32:12 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:32:13 INFO  Canceling debug proxy for [Day2.Day2]
+2022.12.05 15:32:12 INFO  Closing debug server tcp://0.0.0.0:52577
+2022.12.05 15:34:54 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:34:54 INFO  time: compiled root-2022 in 80ms
+2022.12.05 15:34:56 INFO  compiling root-2022 (1 scala source)
+Dec 05, 2022 3:34:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:873)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:410)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.12.05 15:34:56 INFO  time: compiled root-2022 in 0.13s
+2022.12.05 15:35:02 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:35:02 INFO  time: compiled root-2022 in 56ms
+2022.12.05 15:35:04 INFO  compiling root-2022 (1 scala source)
+Dec 05, 2022 3:35:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:873)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:410)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.12.05 15:35:04 INFO  time: compiled root-2022 in 51ms
+2022.12.05 15:35:11 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:35:11 INFO  time: compiled root-2022 in 0.56s
+2022.12.05 15:35:12 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 1h 6m 25.244s)
+2022.12.05 15:35:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:35:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:35:12 INFO  Starting debug proxy for [Day2.Day2]
+2022.12.05 15:35:12 INFO  Trying to attach to remote debuggee VM localhost:52638 .
+2022.12.05 15:35:12 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:35:13 INFO  Canceling debug proxy for [Day2.Day2]
+2022.12.05 15:35:13 INFO  Closing debug server tcp://0.0.0.0:52633
+2022.12.05 15:38:54 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:38:54 INFO  time: compiled root-2022 in 0.63s
+2022.12.05 15:38:55 INFO  compiling root-2022 (1 scala source)
+Dec 05, 2022 3:38:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:873)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:410)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at jdk.internal.reflect.GeneratedMethodAccessor31.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.12.05 15:38:55 INFO  time: compiled root-2022 in 0.23s
+2022.12.05 15:39:15 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:39:15 INFO  time: compiled root-2022 in 0.58s
+2022.12.05 15:39:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:39:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:39:17 INFO  Starting debug proxy for [Day2.Day2]
+2022.12.05 15:39:18 INFO  Trying to attach to remote debuggee VM localhost:52813 .
+2022.12.05 15:39:18 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:39:19 INFO  Canceling debug proxy for [Day2.Day2]
+2022.12.05 15:39:18 INFO  Closing debug server tcp://0.0.0.0:52809
