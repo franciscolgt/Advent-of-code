@@ -1,0 +1,752 @@
+2022.12.05 14:27:33 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/lsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.05 14:27:34 INFO  logging to file /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/metals.log
+2022.12.05 14:27:34 INFO  Started: Metals version 0.11.9 in workspace '/Users/francisco/Documents/francisco/Advent-of-code/2022' for client Visual Studio Code 1.73.1.
+2022.12.05 14:27:35 INFO  time: initialize in 1.6s
+2022.12.05 14:27:40 WARN  Build server is not auto-connectable.
+2022.12.05 14:27:40 WARN  no build target for: /Users/francisco/Documents/francisco/Advent-of-code/2022/build.sbt
+Dec 05, 2022 2:27:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Dec 05, 2022 2:27:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.12.05 14:27:47 INFO  no build target found for /Users/francisco/Documents/francisco/Advent-of-code/2022/build.sbt. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.05 14:27:49 INFO  time: code lens generation in 8.31s
+2022.12.05 14:28:27 INFO  running '/Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/kp/_rsbk6712ksbvw0kyjpdzthr0000gn/T/metals12966977943551681658/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.12.05 14:28:30 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.11)
+2022.12.05 14:28:34 INFO  [info] loading settings for project root-2022-build-build from metals.sbt ...
+2022.12.05 14:28:35 INFO  [info] loading project definition from /Users/francisco/Documents/francisco/Advent-of-code/2022/project/project
+2022.12.05 14:28:39 INFO  [info] loading settings for project root-2022-build from metals.sbt ...
+2022.12.05 14:28:39 INFO  [info] loading project definition from /Users/francisco/Documents/francisco/Advent-of-code/2022/project
+2022.12.05 14:28:43 INFO  [success] Generated .bloop/root-2022-build.json
+2022.12.05 14:28:43 INFO  [warn] Removed stale /Users/francisco/Documents/francisco/Advent-of-code/2022/project/.bloop/root-2021-build.json
+2022.12.05 14:28:43 INFO  [success] Total time: 4 s, completed Dec 5, 2022, 2:28:43 PM
+2022.12.05 14:28:45 INFO  [info] loading settings for project root-2022 from build.sbt ...
+2022.12.05 14:28:45 INFO  [info] set current project to 2022 (in build file:/Users/francisco/Documents/francisco/Advent-of-code/2022/)
+2022.12.05 14:28:46 INFO  [success] Generated .bloop/root-2022-test.json
+2022.12.05 14:28:46 INFO  [success] Generated .bloop/root-2022.json
+2022.12.05 14:28:46 INFO  [success] Total time: 1 s, completed Dec 5, 2022, 2:28:46 PM
+2022.12.05 14:28:46 INFO  time: ran 'sbt bloopInstall' in 19s
+2022.12.05 14:28:46 INFO  Attempting to connect to the build server...
+2022.12.05 14:28:46 INFO  Bloop uses /Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/francisco/.bloop/bloop.json
+2022.12.05 14:28:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/bsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.05 14:28:47 INFO  Attempting to connect to the build server...
+2022.12.05 14:28:47 INFO  Bloop uses /Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/francisco/.bloop/bloop.json
+2022.12.05 14:28:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/project/.metals/bsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.05 14:28:47 INFO  time: Connected to build server in 0.41s
+2022.12.05 14:28:47 INFO  Connected to Build server: Bloop v1.5.4
+2022.12.05 14:28:50 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:28:53 INFO  time: compiled root-2022 in 2.83s
+2022.12.05 14:28:57 INFO  time: indexed workspace in 10s
+Dec 05, 2022 2:29:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Dec 05, 2022 2:29:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Dec 05, 2022 2:29:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+2022.12.05 14:29:38 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:29:39 INFO  time: compiled root-2022 in 1.08s
+Dec 05, 2022 2:30:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 155
+Dec 05, 2022 2:30:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 217
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.05 14:32:29 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:32:29 INFO  time: compiled root-2022 in 0.37s
+Dec 05, 2022 2:32:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 269
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:15:54: stale bloop error: not found: value numbersList
+  println("Ex2: " + increaseCounterOnThreeNumbersSum(numbersList))
+                                                     ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:21:29: stale bloop error: not found: value numbersList
+      previousNumber: Int = numbersList.head,
+                            ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:26:11: stale bloop error: not found: value numbersList
+      if (numbersList.head > previousNumber)
+          ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:25: stale bloop error: not found: value numbersList
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                        ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:43: stale bloop error: not found: value numbersList
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                                          ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:61: stale bloop error: not found: value counter
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                                                            ^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:28: stale bloop error: not found: value numbersList
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                           ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:46: stale bloop error: not found: value numbersList
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                                             ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:64: stale bloop error: not found: value counter
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                                                               ^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:9: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+        ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:28: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                           ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:45: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                                            ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:15:54: stale bloop error: not found: value numbersList
+  println("Ex2: " + increaseCounterOnThreeNumbersSum(numbersList))
+                                                     ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:21:29: stale bloop error: not found: value numbersList
+      previousNumber: Int = numbersList.head,
+                            ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:26:11: stale bloop error: not found: value numbersList
+      if (numbersList.head > previousNumber)
+          ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:25: stale bloop error: not found: value numbersList
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                        ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:43: stale bloop error: not found: value numbersList
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                                          ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:61: stale bloop error: not found: value counter
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                                                            ^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:28: stale bloop error: not found: value numbersList
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                           ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:46: stale bloop error: not found: value numbersList
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                                             ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:64: stale bloop error: not found: value counter
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                                                               ^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:9: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+        ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:28: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                           ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:45: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                                            ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:15:54: stale bloop error: not found: value numbersList
+  println("Ex2: " + increaseCounterOnThreeNumbersSum(numbersList))
+                                                     ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:21:29: stale bloop error: not found: value numbersList
+      previousNumber: Int = numbersList.head,
+                            ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:26:11: stale bloop error: not found: value numbersList
+      if (numbersList.head > previousNumber)
+          ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:25: stale bloop error: not found: value numbersList
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                        ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:43: stale bloop error: not found: value numbersList
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                                          ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:61: stale bloop error: not found: value counter
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                                                            ^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:28: stale bloop error: not found: value numbersList
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                           ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:46: stale bloop error: not found: value numbersList
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                                             ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:64: stale bloop error: not found: value counter
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                                                               ^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:9: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+        ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:28: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                           ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:45: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                                            ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:15:54: stale bloop error: not found: value numbersList
+  println("Ex2: " + increaseCounterOnThreeNumbersSum(numbersList))
+                                                     ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:21:29: stale bloop error: not found: value numbersList
+      previousNumber: Int = numbersList.head,
+                            ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:26:11: stale bloop error: not found: value numbersList
+      if (numbersList.head > previousNumber)
+          ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:25: stale bloop error: not found: value numbersList
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                        ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:43: stale bloop error: not found: value numbersList
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                                          ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27:61: stale bloop error: not found: value counter
+        increaseCounter(numbersList.tail, numbersList.head, counter + 1)
+                                                            ^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:28: stale bloop error: not found: value numbersList
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                           ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:46: stale bloop error: not found: value numbersList
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                                             ^^^^^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:28:64: stale bloop error: not found: value counter
+      else increaseCounter(numbersList.tail, numbersList.head, counter)
+                                                               ^^^^^^^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:9: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+        ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:28: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                           ^
+2022.12.05 14:32:51 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:36:45: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                                            ^
+2022.12.05 14:34:11 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:34:11 INFO  time: compiled root-2022 in 0.2s
+Dec 05, 2022 2:34:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 430
+2022.12.05 14:34:29 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:34:29 INFO  time: compiled root-2022 in 0.2s
+2022.12.05 14:34:47 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:34:47 INFO  time: compiled root-2022 in 0.21s
+Dec 05, 2022 2:34:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 461
+Dec 05, 2022 2:35:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 471
+2022.12.05 14:35:11 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:35:11 INFO  time: compiled root-2022 in 0.19s
+2022.12.05 14:35:20 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:35:20 INFO  time: compiled root-2022 in 0.13s
+2022.12.05 14:35:26 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:35:26 INFO  time: compiled root-2022 in 0.18s
+Dec 05, 2022 2:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 510
+Dec 05, 2022 2:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 511
+2022.12.05 14:35:30 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:35:30 INFO  time: compiled root-2022 in 0.15s
+2022.12.05 14:35:33 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:35:33 INFO  time: compiled root-2022 in 0.36s
+2022.12.05 14:35:42 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:35:42 INFO  time: compiled root-2022 in 0.26s
+2022.12.05 14:35:52 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:35:52 INFO  time: compiled root-2022 in 0.18s
+2022.12.05 14:36:08 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:36:08 INFO  time: compiled root-2022 in 0.2s
+2022.12.05 14:36:12 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:36:12 INFO  time: compiled root-2022 in 0.15s
+Exception in thread "pool-4-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.05 14:36:55 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:36:55 INFO  time: compiled root-2022 in 0.16s
+2022.12.05 14:37:35 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:37:35 INFO  time: compiled root-2022 in 0.2s
+2022.12.05 14:38:45 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:38:45 INFO  time: compiled root-2022 in 0.17s
+Dec 05, 2022 2:39:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1041
+Exception in thread "pool-4-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.05 14:40:05 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:40:05 INFO  time: compiled root-2022 in 94ms
+Dec 05, 2022 2:40:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1093
+Exception in thread "pool-4-thread-4" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-5" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-6" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Dec 05, 2022 2:40:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1150
+Exception in thread "pool-4-thread-7" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Dec 05, 2022 2:40:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1153
+Dec 05, 2022 2:40:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1175
+Dec 05, 2022 2:40:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1177
+2022.12.05 14:40:55 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:40:55 INFO  time: compiled root-2022 in 0.32s
+2022.12.05 14:41:16 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:41:16 INFO  time: compiled root-2022 in 0.12s
+Exception in thread "pool-4-thread-8" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-9" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Dec 05, 2022 2:41:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1288
+2022.12.05 14:41:40 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:41:40 INFO  time: compiled root-2022 in 0.14s
+2022.12.05 14:41:52 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:9: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+        ^
+2022.12.05 14:41:52 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:28: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                           ^
+2022.12.05 14:41:52 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:45: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                                            ^
+2022.12.05 14:41:52 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:9: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+        ^
+2022.12.05 14:41:52 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:28: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                           ^
+2022.12.05 14:41:52 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:45: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                                            ^
+2022.12.05 14:41:54 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:9: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+        ^
+2022.12.05 14:41:54 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:28: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                           ^
+2022.12.05 14:41:54 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:45: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                                            ^
+2022.12.05 14:41:54 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:9: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+        ^
+2022.12.05 14:41:54 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:28: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                           ^
+2022.12.05 14:41:54 INFO  file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:60:45: stale bloop error: not found: value numbersList
+        numbersList.head + numbersList(1) + numbersList(2),
+                                            ^
+2022.12.05 14:42:07 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:42:07 INFO  time: compiled root-2022 in 0.93s
+2022.12.05 14:42:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:42:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:42:11 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:42:12 INFO  Trying to attach to remote debuggee VM localhost:50536 .
+2022.12.05 14:42:12 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:42:12 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:42:12 INFO  Closing debug server tcp://0.0.0.0:50531
+2022.12.05 14:46:25 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 17m 38.147s)
+2022.12.05 14:46:25 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:46:25 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:46:25 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:46:26 INFO  Trying to attach to remote debuggee VM localhost:50813 .
+2022.12.05 14:46:26 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:46:26 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:46:26 INFO  Closing debug server tcp://0.0.0.0:50808
+2022.12.05 14:46:42 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:46:42 INFO  time: compiled root-2022 in 0.97s
+2022.12.05 14:46:44 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:46:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:46:44 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:46:44 INFO  Trying to attach to remote debuggee VM localhost:50831 .
+2022.12.05 14:46:44 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:46:45 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:46:44 INFO  Closing debug server tcp://0.0.0.0:50827
+2022.12.05 14:47:23 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 18m 36.186s)
+2022.12.05 14:47:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:47:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:47:23 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:47:23 INFO  Trying to attach to remote debuggee VM localhost:50913 .
+2022.12.05 14:47:23 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:47:24 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:47:24 INFO  Closing debug server tcp://0.0.0.0:50909
+2022.12.05 14:47:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:47:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:47:42 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:47:42 INFO  Trying to attach to remote debuggee VM localhost:50932 .
+2022.12.05 14:47:42 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:47:43 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:47:42 INFO  Closing debug server tcp://0.0.0.0:50927
+2022.12.05 14:47:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:47:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:47:55 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:47:56 INFO  Trying to attach to remote debuggee VM localhost:50949 .
+2022.12.05 14:47:56 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:47:56 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:47:56 INFO  Closing debug server tcp://0.0.0.0:50943
+2022.12.05 14:48:04 INFO  time: code lens generation in 1.23s
+Dec 05, 2022 2:48:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1444
+Dec 05, 2022 2:48:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1445
+Dec 05, 2022 2:48:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1478
+Dec 05, 2022 2:48:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1479
+Dec 05, 2022 2:48:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1498
+Dec 05, 2022 2:48:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1499
+2022.12.05 14:48:35 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:48:35 INFO  time: compiled root-2022 in 0.71s
+2022.12.05 14:48:40 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 19m 53.286s)
+2022.12.05 14:48:40 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:48:40 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:48:40 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:48:40 INFO  Trying to attach to remote debuggee VM localhost:50997 .
+2022.12.05 14:48:40 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:48:41 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:48:41 INFO  Closing debug server tcp://0.0.0.0:50992
+2022.12.05 14:49:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:49:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:49:00 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:49:01 INFO  Trying to attach to remote debuggee VM localhost:51015 .
+2022.12.05 14:49:01 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:49:02 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:49:01 INFO  Closing debug server tcp://0.0.0.0:51010
+Dec 05, 2022 2:50:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1564
+2022.12.05 14:50:35 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:50:35 INFO  time: compiled root-2022 in 0.88s
+2022.12.05 14:50:39 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 21m 51.985s)
+2022.12.05 14:50:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:50:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:50:39 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:50:39 INFO  Trying to attach to remote debuggee VM localhost:51073 .
+2022.12.05 14:50:39 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:50:40 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:50:40 INFO  Closing debug server tcp://0.0.0.0:51068
+2022.12.05 14:51:14 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:51:14 INFO  time: compiled root-2022 in 0.76s
+2022.12.05 14:51:25 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:51:25 INFO  time: compiled root-2022 in 0.63s
+2022.12.05 14:51:33 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:51:33 INFO  time: compiled root-2022 in 0.58s
+2022.12.05 14:51:40 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:51:40 INFO  time: compiled root-2022 in 0.58s
+2022.12.05 14:51:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:51:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:51:42 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:51:43 INFO  Trying to attach to remote debuggee VM localhost:51150 .
+2022.12.05 14:51:43 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:51:43 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:51:43 INFO  Closing debug server tcp://0.0.0.0:51146
+something's wrong: no file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala in List[<error>]RangePosition(file:///Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala, 617, 617, 1209)
+2022.12.05 14:55:13 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:21: error: [dialect scala213] illegal start of simple expression
+      totalCaloriesList: List[String] = [],
+                                        ^
+2022.12.05 14:55:13 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:55:13 INFO  time: compiled root-2022 in 0.52s
+2022.12.05 14:55:18 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:55:18 INFO  time: compiled root-2022 in 0.84s
+Exception in thread "pool-4-thread-10" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.05 14:55:28 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:55:28 INFO  time: compiled root-2022 in 0.12s
+Dec 05, 2022 2:56:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2044
+Dec 05, 2022 2:56:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2045
+Dec 05, 2022 2:56:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2046
+Dec 05, 2022 2:56:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2048
+2022.12.05 14:56:15 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:26: error: [dialect scala213] identifier expected but else found
+      else higherCalories
+      ^
+2022.12.05 14:56:34 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:56:34 INFO  time: compiled root-2022 in 56ms
+2022.12.05 14:56:39 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:56:39 INFO  time: compiled root-2022 in 63ms
+2022.12.05 14:56:43 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:56:43 INFO  time: compiled root-2022 in 0.11s
+2022.12.05 14:56:58 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] ; expected but else found
+    else {
+    ^
+2022.12.05 14:56:58 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:56:58 INFO  time: compiled root-2022 in 39ms
+2022.12.05 14:57:01 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] ; expected but else found
+    else {
+    ^
+2022.12.05 14:57:02 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:57:02 INFO  time: compiled root-2022 in 46ms
+2022.12.05 14:57:22 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] ; expected but else found
+    else {
+    ^
+2022.12.05 14:57:23 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:57:23 INFO  time: compiled root-2022 in 34ms
+Dec 05, 2022 2:57:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2218
+2022.12.05 14:57:27 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] ; expected but else found
+    else {
+    ^
+2022.12.05 14:57:27 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:57:27 INFO  time: compiled root-2022 in 36ms
+2022.12.05 14:57:37 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] illegal start of statement
+    else {
+    ^
+2022.12.05 14:57:37 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:57:37 INFO  time: compiled root-2022 in 41ms
+2022.12.05 14:57:43 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:57:43 INFO  time: compiled root-2022 in 83ms
+2022.12.05 14:57:55 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:57:55 INFO  time: compiled root-2022 in 86ms
+Dec 05, 2022 2:57:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2303
+2022.12.05 14:58:08 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:58:08 INFO  time: compiled root-2022 in 96ms
+2022.12.05 14:58:12 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] ; expected but else found
+    else {
+    ^
+2022.12.05 14:58:12 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:58:12 INFO  time: compiled root-2022 in 33ms
+2022.12.05 14:58:15 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:58:15 INFO  time: compiled root-2022 in 0.16s
+2022.12.05 14:58:33 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:58:33 INFO  time: compiled root-2022 in 76ms
+2022.12.05 14:58:33 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:58:33 INFO  time: compiled root-2022 in 0.25s
+2022.12.05 14:58:49 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:58:49 INFO  time: compiled root-2022 in 0.12s
+2022.12.05 14:59:10 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:59:10 INFO  time: compiled root-2022 in 0.11s
+2022.12.05 14:59:12 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:59:12 INFO  time: compiled root-2022 in 82ms
+2022.12.05 14:59:14 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:59:14 INFO  time: compiled root-2022 in 97ms
+2022.12.05 14:59:25 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:59:25 INFO  time: compiled root-2022 in 0.11s
+2022.12.05 14:59:30 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:21: error: [dialect scala213] = expected but , found
+      totalCaloriesList: List[Int] = List),
+                                          ^
+2022.12.05 14:59:31 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:59:31 INFO  time: compiled root-2022 in 46ms
+2022.12.05 14:59:35 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:59:35 INFO  time: compiled root-2022 in 0.11s
+2022.12.05 14:59:42 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:59:42 INFO  time: compiled root-2022 in 84ms
+2022.12.05 14:59:56 INFO  compiling root-2022 (1 scala source)
+2022.12.05 14:59:56 INFO  time: compiled root-2022 in 85ms
+Dec 05, 2022 3:00:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2671
+2022.12.05 15:00:55 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:00:55 INFO  time: compiled root-2022 in 68ms
+2022.12.05 15:00:55 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:00:55 INFO  time: compiled root-2022 in 82ms
+2022.12.05 15:00:57 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:00:57 INFO  time: compiled root-2022 in 78ms
+2022.12.05 15:01:08 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:01:08 INFO  time: compiled root-2022 in 34ms
+2022.12.05 15:01:11 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:01:11 INFO  time: compiled root-2022 in 83ms
+2022.12.05 15:01:36 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:01:36 INFO  time: compiled root-2022 in 51ms
+2022.12.05 15:02:14 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:02:15 INFO  time: compiled root-2022 in 1.19s
+2022.12.05 15:02:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:02:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:02:18 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 15:02:18 INFO  Trying to attach to remote debuggee VM localhost:51603 .
+2022.12.05 15:02:18 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:02:19 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 15:02:18 INFO  Closing debug server tcp://0.0.0.0:51597
+2022.12.05 15:03:24 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:03:24 INFO  time: compiled root-2022 in 0.11s
+2022.12.05 15:03:37 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:03:37 INFO  time: compiled root-2022 in 0.62s
+Dec 05, 2022 3:03:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2980
+Dec 05, 2022 3:03:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2991
+Dec 05, 2022 3:04:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3084
+Dec 05, 2022 3:04:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3086
+Dec 05, 2022 3:04:16 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Dec 05, 2022 3:04:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:420)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:974)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:822)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+Dec 05, 2022 3:04:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3122
+Exception in thread "pool-4-thread-11" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.05 15:04:55 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:04:55 INFO  time: compiled root-2022 in 99ms
+2022.12.05 15:04:58 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:04:58 INFO  time: compiled root-2022 in 74ms
+2022.12.05 15:05:01 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:05:01 INFO  time: compiled root-2022 in 85ms
+Dec 05, 2022 3:05:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3285
+2022.12.05 15:05:16 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:05:16 INFO  time: compiled root-2022 in 0.15s
+2022.12.05 15:05:16 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:05:16 INFO  time: compiled root-2022 in 85ms
+2022.12.05 15:05:30 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:05:30 INFO  time: compiled root-2022 in 0.27s
+Exception in thread "pool-4-thread-12" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-13" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "pool-4-thread-14" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.05 15:05:42 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:05:42 INFO  time: compiled root-2022 in 0.68s
+2022.12.05 15:05:58 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:05:58 INFO  time: compiled root-2022 in 0.18s
+Dec 05, 2022 3:06:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3446
+2022.12.05 15:06:16 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:06:16 INFO  time: compiled root-2022 in 0.12s
+2022.12.05 15:06:29 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:06:29 INFO  time: compiled root-2022 in 0.59s
+2022.12.05 15:06:42 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:06:42 INFO  time: compiled root-2022 in 0.59s
+Dec 05, 2022 3:06:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3608
+2022.12.05 15:06:51 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:06:51 INFO  time: compiled root-2022 in 0.6s
+2022.12.05 15:06:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:06:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:06:53 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 15:06:54 INFO  Trying to attach to remote debuggee VM localhost:51793 .
+2022.12.05 15:06:54 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:06:54 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 15:06:54 INFO  Closing debug server tcp://0.0.0.0:51788
+2022.12.05 15:08:07 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:08:07 INFO  time: compiled root-2022 in 0.67s
+2022.12.05 15:08:13 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:08:13 INFO  time: compiled root-2022 in 0.56s
+2022.12.05 15:08:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:08:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:08:16 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 15:08:16 INFO  Trying to attach to remote debuggee VM localhost:51881 .
+2022.12.05 15:08:16 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:08:17 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 15:08:16 INFO  Closing debug server tcp://0.0.0.0:51877
+2022.12.05 15:08:55 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] ; expected but else found
+    else {
+    ^
+2022.12.05 15:08:55 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:08:55 INFO  time: compiled root-2022 in 47ms
+2022.12.05 15:09:02 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] ; expected but else found
+    else {
+    ^
+2022.12.05 15:09:02 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:09:02 INFO  time: compiled root-2022 in 42ms
+2022.12.05 15:09:09 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] ; expected but else found
+    else {
+    ^
+2022.12.05 15:09:09 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:09:09 INFO  time: compiled root-2022 in 33ms
+2022.12.05 15:09:11 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] ; expected but else found
+    else {
+    ^
+2022.12.05 15:09:11 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:09:11 INFO  time: compiled root-2022 in 59ms
+2022.12.05 15:09:12 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day1/Day1.scala:27: error: [dialect scala213] illegal start of statement
+    else {
+    ^
+2022.12.05 15:09:12 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:09:12 INFO  time: compiled root-2022 in 50ms
+2022.12.05 15:09:19 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:09:19 INFO  time: compiled root-2022 in 0.67s
+2022.12.05 15:09:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:09:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:09:21 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 15:09:22 INFO  Trying to attach to remote debuggee VM localhost:51925 .
+2022.12.05 15:09:22 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:09:23 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 15:09:22 INFO  Closing debug server tcp://0.0.0.0:51921
+2022.12.05 15:09:49 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:09:49 INFO  time: compiled root-2022 in 0.61s
+2022.12.05 15:09:51 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 41m 3.86s)
+2022.12.05 15:09:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:09:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:09:51 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 15:09:52 INFO  Trying to attach to remote debuggee VM localhost:51944 .
+2022.12.05 15:09:52 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:09:52 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 15:09:52 INFO  Closing debug server tcp://0.0.0.0:51940
+2022.12.05 15:10:41 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:10:41 INFO  time: compiled root-2022 in 0.32s
+2022.12.05 15:10:47 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:10:47 INFO  time: compiled root-2022 in 0.71s
+Dec 05, 2022 3:10:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3907
+Dec 05, 2022 3:10:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3908
+2022.12.05 15:10:56 INFO  compiling root-2022 (1 scala source)
+2022.12.05 15:10:56 INFO  time: compiled root-2022 in 0.58s
+2022.12.05 15:10:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 15:10:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 15:10:57 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 15:10:58 INFO  Trying to attach to remote debuggee VM localhost:52026 .
+2022.12.05 15:10:58 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 15:10:59 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 15:10:58 INFO  Closing debug server tcp://0.0.0.0:52022

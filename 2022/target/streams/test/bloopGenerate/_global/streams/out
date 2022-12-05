@@ -1,0 +1,4 @@
+[debug] [root-2022-test] Classpath dependencies List()
+[debug] [root-2022-test] Dependencies from configurations List(root-2022)
+[debug] Bloop wrote the configuration of project 'root-2022-test' to '/Users/francisco/Documents/francisco/Advent-of-code/2022/.bloop/root-2022-test.json'
+[success] Generated .bloop/root-2022-test.json

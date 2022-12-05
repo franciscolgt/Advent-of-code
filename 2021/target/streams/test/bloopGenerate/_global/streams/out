@@ -1,0 +1,4 @@
+[debug] [root-2021-test] Classpath dependencies List()
+[debug] [root-2021-test] Dependencies from configurations List(root-2021)
+[debug] Bloop wrote the configuration of project 'root-2021-test' to '/Users/francisco/Documents/francisco/Advent-of-code/2021/.bloop/root-2021-test.json'
+[success] Generated .bloop/root-2021-test.json

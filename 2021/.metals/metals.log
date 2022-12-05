@@ -1,0 +1,451 @@
+2022.12.05 14:23:27 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/lsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.05 14:23:27 INFO  logging to file /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/metals.log
+2022.12.05 14:23:27 INFO  Started: Metals version 0.11.9 in workspace '/Users/francisco/Documents/francisco/Advent-of-code/2021' for client Visual Studio Code 1.73.1.
+2022.12.05 14:23:30 INFO  time: initialize in 2.71s
+2022.12.05 14:23:36 WARN  Build server is not auto-connectable.
+2022.12.05 14:23:36 WARN  no build target for: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+2022.12.05 14:23:49 INFO  no build target found for /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.05 14:23:51 INFO  running '/Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/kp/_rsbk6712ksbvw0kyjpdzthr0000gn/T/metals4421317214298553881/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.12.05 14:23:52 INFO  time: code lens generation in 15s
+2022.12.05 14:23:51 WARN  no build target for: /Users/francisco/Documents/francisco/Advent-of-code/2021/project/metals.sbt
+2022.12.05 14:23:52 WARN  no build target for: /Users/francisco/Documents/francisco/Advent-of-code/2021/project/project/metals.sbt
+2022.12.05 14:23:52 INFO  skipping build import with status 'Started'
+2022.12.05 14:23:54 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.11)
+2022.12.05 14:23:58 INFO  [info] loading settings for project root-2021-build-build from metals.sbt ...
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.pom
+2022.12.05 14:24:00 INFO  [info] loading project definition from /Users/francisco/Documents/francisco/Advent-of-code/2021/project/project
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.pom
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.pom
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.pom
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.pom
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.pom
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.7/sourcecode_2.13-0.2.7.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.7/sourcecode_2.13-0.2.7.pom
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.jar
+Downloading https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scalap/2.13.8/scalap-2.13.8.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.5.3/scalafmt-sysops_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.7/sourcecode_2.13-0.2.7.jar
+Downloaded https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.7/sourcecode_2.13-0.2.7.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.5/scalameta_2.13-4.5.5.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.5.3/scalafmt-config_2.13-3.5.3.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.5.0/scala-collection-compat_2.13-2.5.0.jar
+Downloading https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar
+Downloaded https://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar
+Downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.5/parsers_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.5.3/scalafmt-core_2.13-3.5.3.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.5/common_2.13-4.5.5.jar
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.8/scala-reflect-2.13.8.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.5/trees_2.13-4.5.5.jar
+2022.12.05 14:24:05 INFO  [info] loading settings for project root-2021-build from metals.sbt ...
+2022.12.05 14:24:05 INFO  [info] loading project definition from /Users/francisco/Documents/francisco/Advent-of-code/2021/project
+Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.8/scala-compiler-2.13.8.jar
+2022.12.05 14:24:07 WARN  no build target for: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+Dec 05, 2022 2:24:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:412)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+Dec 05, 2022 2:24:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:412)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.12.05 14:24:11 WARN  no build target for: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+2022.12.05 14:24:13 INFO  [success] Generated .bloop/root-2021-build.json
+2022.12.05 14:24:13 INFO  [success] Total time: 7 s, completed Dec 5, 2022, 2:24:13 PM
+2022.12.05 14:24:14 WARN  no build target for: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+Dec 05, 2022 2:24:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.BuildTargetNotFoundForPathException: No build target could be found for the path: /Users/francisco/Documents/francisco/Advent-of-code/2021/src/main/scala/Day1/Day1.scala
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:412)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.12.05 14:24:16 INFO  [info] loading settings for project root-2021 from build.sbt ...
+2022.12.05 14:24:16 INFO  [info] set current project to Advent of Code (in build file:/Users/francisco/Documents/francisco/Advent-of-code/2021/)
+2022.12.05 14:24:21 INFO  [success] Generated .bloop/root-2021-test.json
+2022.12.05 14:24:21 INFO  [success] Generated .bloop/root-2021.json
+2022.12.05 14:24:21 INFO  [success] Total time: 5 s, completed Dec 5, 2022, 2:24:21 PM
+2022.12.05 14:24:21 INFO  time: ran 'sbt bloopInstall' in 30s
+2022.12.05 14:24:21 INFO  Attempting to connect to the build server...
+2022.12.05 14:24:21 INFO  Setting up current java home /Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home in /Users/francisco/.bloop/bloop.json
+2022.12.05 14:24:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/bsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.05 14:24:41 INFO  Attempting to connect to the build server...
+2022.12.05 14:24:41 INFO  Bloop uses /Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/francisco/.bloop/bloop.json
+2022.12.05 14:24:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/project/.metals/bsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.05 14:24:43 WARN  no build target for: /Users/francisco/Documents/francisco/Advent-of-code/2021/build.sbt
+2022.12.05 14:24:43 INFO  time: Connected to build server in 21s
+2022.12.05 14:24:43 INFO  Connected to Build server: Bloop v1.5.4
+2022.12.05 14:24:44 INFO  time: Imported build in 0.27s
+2022.12.05 14:24:51 INFO  time: code lens generation in 2.79s
+2022.12.05 14:24:57 INFO  running '/Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/kp/_rsbk6712ksbvw0kyjpdzthr0000gn/T/metals13455918193672834464/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.12.05 14:24:57 INFO  time: indexed workspace in 13s
+2022.12.05 14:24:58 INFO  compiling root-2021 (13 scala sources)
+Dec 05, 2022 2:25:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DebugProvider$SemanticDbNotFoundException$.<clinit>(DebugProvider.scala:881)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$1(DebugProvider.scala:336)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:337)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:418)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.12.05 14:25:01 INFO  Deduplicating compilation of root-2021 from bsp client 'Metals 0.11.9' (since 24.243s)
+2022.12.05 14:25:01 INFO  compiling root-2021 (13 scala sources)
+2022.12.05 14:25:02 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.11)
+2022.12.05 14:25:04 INFO  [info] loading settings for project root-2021-build-build from metals.sbt ...
+2022.12.05 14:25:07 INFO  [info] loading project definition from /Users/francisco/Documents/francisco/Advent-of-code/2021/project/project
+2022.12.05 14:25:09 INFO  [info] loading settings for project root-2021-build from metals.sbt ...
+2022.12.05 14:25:10 INFO  [info] loading project definition from /Users/francisco/Documents/francisco/Advent-of-code/2021/project
+2022.12.05 14:25:14 INFO  [success] Generated .bloop/root-2021-build.json
+2022.12.05 14:25:14 INFO  [success] Total time: 5 s, completed Dec 5, 2022, 2:25:15 PM
+2022.12.05 14:25:20 INFO  [info] loading settings for project root-2021 from build.sbt ...
+2022.12.05 14:25:20 INFO  [info] set current project to 2021 (in build file:/Users/francisco/Documents/francisco/Advent-of-code/2021/)
+2022.12.05 14:25:22 INFO  [success] Generated .bloop/root-2021.json
+2022.12.05 14:25:22 INFO  [success] Generated .bloop/root-2021-test.json
+2022.12.05 14:25:22 INFO  [success] Total time: 1 s, completed Dec 5, 2022, 2:25:22 PM
+2022.12.05 14:25:22 INFO  time: ran 'sbt bloopInstall' in 24s
+2022.12.05 14:25:22 INFO  Disconnecting from Bloop session...
+2022.12.05 14:25:22 INFO  Shut down connection with build server.
+2022.12.05 14:25:22 INFO  Shut down connection with build server.
+Dec 05, 2022 2:25:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:321)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:321)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:258)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:122)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:115)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:241)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:259)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:94)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:172)
+	at java.base/java.io.OutputStream.write(OutputStream.java:122)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:152)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2022.12.05 14:25:22 INFO  Attempting to connect to the build server...
+2022.12.05 14:25:22 INFO  Cancelling compilation on Bloop server
+2022.12.05 14:25:22 INFO  Cancelling compilation on Bloop server
+2022.12.05 14:25:22 INFO  Bloop uses /Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/francisco/.bloop/bloop.json
+2022.12.05 14:25:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/bsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.05 14:25:22 INFO  Attempting to connect to the build server...
+2022.12.05 14:25:22 INFO  Bloop uses /Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/francisco/.bloop/bloop.json
+2022.12.05 14:25:22 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/project/.metals/bsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.05 14:25:22 INFO  time: Connected to build server in 0.35s
+2022.12.05 14:25:22 INFO  Connected to Build server: Bloop v1.5.4
+2022.12.05 14:25:23 INFO  time: Imported build in 0.34s
+2022.12.05 14:25:28 INFO  time: indexed workspace in 5.74s
+2022.12.05 14:25:49 INFO  compiling root-2021 (13 scala sources)
+2022.12.05 14:26:01 WARN  12 deprecations (since 2.13.0); re-run with -deprecation for details
+2022.12.05 14:26:01 INFO  time: compiled root-2021 in 12s
+Dec 05, 2022 2:26:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptNow(CompletableFuture.java:743)
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:731)
+	at java.base/java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2112)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DebugProvider$NoRunOptionException$.<clinit>(DebugProvider.scala:877)
+	at scala.meta.internal.metals.debug.DebugProvider.$anonfun$resolveInFile$2(DebugProvider.scala:366)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugProvider.resolveInFile(DebugProvider.scala:337)
+	at scala.meta.internal.metals.debug.DebugProvider.debugDiscovery(DebugProvider.scala:418)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1963)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.12.05 14:26:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:26:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:26:10 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:26:12 INFO  Trying to attach to remote debuggee VM localhost:49970 .
+2022.12.05 14:26:12 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:26:12 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:26:12 INFO  Closing debug server tcp://0.0.0.0:49965
+Dec 05, 2022 2:26:12 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:146)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2022.12.05 14:26:15 INFO  Deduplicating compilation of root-2021 from bsp client 'Metals 0.11.9' (since 52.831s)
+2022.12.05 14:26:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:26:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:26:15 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:26:16 INFO  Trying to attach to remote debuggee VM localhost:49982 .
+2022.12.05 14:26:16 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:26:17 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:26:16 INFO  Closing debug server tcp://0.0.0.0:49978
+2022.12.05 14:26:18 INFO  Deduplicating compilation of root-2021 from bsp client 'Metals 0.11.9' (since 55.515s)
+2022.12.05 14:26:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:26:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:26:18 INFO  Starting debug proxy for [Day1.Day1]
+2022.12.05 14:26:19 INFO  Trying to attach to remote debuggee VM localhost:49994 .
+2022.12.05 14:26:19 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:26:20 INFO  Canceling debug proxy for [Day1.Day1]
+2022.12.05 14:26:19 INFO  Closing debug server tcp://0.0.0.0:49989
+2022.12.05 14:26:30 INFO  Deduplicating compilation of root-2021 from bsp client 'Metals 0.11.9' (since 1m 8.158s)
+2022.12.05 14:26:30 INFO  compiling root-2021 (1 scala source)
+2022.12.05 14:26:30 INFO  compiling root-2021 (1 scala source)
+2022.12.05 14:26:33 INFO  time: compiled root-2021 in 2.93s
+2022.12.05 14:26:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:26:33 INFO  Deduplicating compilation of root-2021 from bsp client 'Metals 0.11.9' (since 1m 11.26s)
+2022.12.05 14:26:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:26:33 INFO  Starting debug proxy for [Day2.Day2]
+2022.12.05 14:26:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.05 14:26:33 ERROR java.nio.file.FileSystemAlreadyExistsException
+2022.12.05 14:26:33 INFO  Closing debug server tcp://0.0.0.0:50017
+2022.12.05 14:26:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2021/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.05 14:26:34 INFO  Starting debug proxy for [Day2.Day2]
+Dec 05, 2022 2:26:34 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+INFO: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:69)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022.12.05 14:26:34 INFO  Canceling debug proxy for [Day2.Day2]
+2022.12.05 14:26:35 INFO  Trying to attach to remote debuggee VM localhost:50021 .
+2022.12.05 14:26:35 INFO  Attaching to debuggee VM succeeded.
+2022.12.05 14:26:35 INFO  Closing debug server tcp://0.0.0.0:50008
+Dec 05, 2022 2:26:35 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+INFO: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:252)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:271)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:69)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+2022.12.05 14:26:35 INFO  Canceling debug proxy for [Day2.Day2]
+2022.12.05 14:27:25 INFO  shutting down Metals
+2022.12.05 14:27:25 INFO  Shut down connection with build server.
+2022.12.05 14:27:25 INFO  Shut down connection with build server.
