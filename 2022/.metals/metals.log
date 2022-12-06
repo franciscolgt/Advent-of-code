@@ -1189,3 +1189,398 @@ Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsExcepti
 2022.12.05 15:39:18 INFO  Attaching to debuggee VM succeeded.
 2022.12.05 15:39:19 INFO  Canceling debug proxy for [Day2.Day2]
 2022.12.05 15:39:18 INFO  Closing debug server tcp://0.0.0.0:52809
+2022.12.05 19:07:27 INFO  shutting down Metals
+2022.12.05 19:07:27 INFO  Shut down connection with build server.
+2022.12.05 19:07:28 INFO  Shut down connection with build server.
+2022.12.05 23:46:54 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/lsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.12.05 23:46:54 INFO  logging to file /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/metals.log
+2022.12.05 23:46:54 INFO  Started: Metals version 0.11.9 in workspace '/Users/francisco/Documents/francisco/Advent-of-code/2022' for client Visual Studio Code 1.73.1.
+2022.12.05 23:46:56 INFO  time: initialize in 1.92s
+2022.12.05 23:47:03 INFO  Attempting to connect to the build server...
+2022.12.05 23:47:03 INFO  Bloop uses /Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/francisco/.bloop/bloop.json
+Dec 05, 2022 11:47:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.12.05 23:47:03 INFO  skipping build import with status 'Installed'
+2022.12.05 23:47:10 INFO  no build target found for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day2/Day2.scala. Using presentation compiler with project's scala-library version: 3.2.0
+2022.12.05 23:47:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/bsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.05 23:47:11 INFO  Attempting to connect to the build server...
+2022.12.05 23:47:11 INFO  Bloop uses /Users/francisco/.jabba/jdk/adopt@1.11.0-11/Contents/Home defined at /Users/francisco/.bloop/bloop.json
+2022.12.05 23:47:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/project/.metals/bsp.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.12.05 23:47:11 INFO  time: Connected to build server in 8.41s
+2022.12.05 23:47:11 INFO  Connected to Build server: Bloop v1.5.4
+2022.12.05 23:47:11 INFO  time: Imported build in 0.27s
+2022.12.05 23:47:14 INFO  time: code lens generation in 11s
+2022.12.05 23:47:20 INFO  time: indexed workspace in 8.43s
+2022.12.05 23:55:05 INFO  compiling root-2022 (1 scala source)
+2022.12.05 23:55:11 INFO  time: compiled root-2022 in 5.87s
+2022.12.05 23:55:16 INFO  compiling root-2022 (3 scala sources)
+2022.12.05 23:55:16 INFO  time: compiled root-2022 in 0.39s
+2022.12.05 23:55:16 INFO  compiling root-2022 (3 scala sources)
+2022.12.05 23:55:16 INFO  time: compiled root-2022 in 0.14s
+2022.12.05 23:55:18 INFO  compiling root-2022 (3 scala sources)
+2022.12.05 23:55:18 INFO  time: compiled root-2022 in 0.14s
+2022.12.05 23:55:23 INFO  compiling root-2022 (3 scala sources)
+2022.12.05 23:55:26 INFO  time: compiled root-2022 in 3.56s
+2022.12.05 23:59:14 INFO  compiling root-2022 (1 scala source)
+2022.12.05 23:59:14 INFO  time: compiled root-2022 in 0.5s
+2022.12.05 23:59:40 INFO  compiling root-2022 (1 scala source)
+2022.12.05 23:59:40 INFO  time: compiled root-2022 in 0.31s
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Dec 05, 2022 11:59:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 123
+2022.12.05 23:59:51 INFO  compiling root-2022 (1 scala source)
+Dec 05, 2022 11:59:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+Dec 05, 2022 11:59:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 126
+2022.12.05 23:59:51 INFO  time: compiled root-2022 in 0.29s
+2022.12.05 23:59:51 INFO  compiling root-2022 (1 scala source)
+2022.12.05 23:59:51 INFO  time: compiled root-2022 in 0.25s
+Dec 05, 2022 11:59:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 127
+Dec 06, 2022 12:01:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 156
+2022.12.06 00:02:20 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala:28: error: [dialect scala213] illegal start of simple expression
+  }
+  ^
+2022.12.06 00:02:20 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:02:20 INFO  time: compiled root-2022 in 98ms
+2022.12.06 00:02:27 ERROR scalafmt: /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala:28: error: [dialect scala213] illegal start of simple expression
+  }
+  ^
+2022.12.06 00:02:27 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:02:27 INFO  time: compiled root-2022 in 57ms
+2022.12.06 00:02:31 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:02:31 INFO  time: compiled root-2022 in 0.22s
+2022.12.06 00:02:39 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:02:39 INFO  time: compiled root-2022 in 0.2s
+2022.12.06 00:02:48 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:02:48 INFO  time: compiled root-2022 in 0.56s
+Dec 06, 2022 12:03:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 342
+2022.12.06 00:03:07 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:03:07 INFO  time: compiled root-2022 in 0.13s
+2022.12.06 00:03:30 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:03:30 INFO  time: compiled root-2022 in 0.11s
+Dec 06, 2022 12:03:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 445
+Dec 06, 2022 12:03:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 446
+2022.12.06 00:04:26 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:04:26 INFO  time: compiled root-2022 in 0.12s
+2022.12.06 00:04:44 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:04:44 INFO  time: compiled root-2022 in 0.12s
+Dec 06, 2022 12:04:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 573
+Dec 06, 2022 12:04:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 574
+2022.12.06 00:04:58 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:04:58 INFO  time: compiled root-2022 in 0.13s
+2022.12.06 00:05:02 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:05:02 INFO  time: compiled root-2022 in 0.59s
+2022.12.06 00:05:05 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:05:05 INFO  time: compiled root-2022 in 0.94s
+2022.12.06 00:05:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:05:09 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:05:09 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:05:11 INFO  Trying to attach to remote debuggee VM localhost:49553 .
+2022.12.06 00:05:11 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:05:12 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:05:11 INFO  Closing debug server tcp://0.0.0.0:49548
+Dec 06, 2022 12:05:12 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:146)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2022.12.06 00:05:25 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:05:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.06 00:05:27 INFO  time: compiled root-2022 in 2.04s
+2022.12.06 00:05:27 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:05:27 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:05:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.06 00:05:27 INFO  time: compiled root-2022 in 0.47s
+2022.12.06 00:05:28 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 18m 17.487s)
+2022.12.06 00:05:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:05:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:05:29 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:05:30 INFO  Trying to attach to remote debuggee VM localhost:49578 .
+2022.12.06 00:05:30 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:05:30 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:05:30 INFO  Closing debug server tcp://0.0.0.0:49573
+2022.12.06 00:05:48 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:05:48 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.06 00:05:48 INFO  time: compiled root-2022 in 0.7s
+2022.12.06 00:05:50 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 18m 39.112s)
+2022.12.06 00:05:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:05:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:05:50 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:05:51 INFO  Trying to attach to remote debuggee VM localhost:49600 .
+2022.12.06 00:05:51 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:05:52 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:05:51 INFO  Closing debug server tcp://0.0.0.0:49596
+Dec 06, 2022 12:05:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 802
+2022.12.06 00:06:12 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:06:12 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.06 00:06:12 INFO  time: compiled root-2022 in 0.87s
+2022.12.06 00:06:14 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 19m 2.917s)
+2022.12.06 00:06:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:06:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:06:14 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:06:15 INFO  Trying to attach to remote debuggee VM localhost:49624 .
+2022.12.06 00:06:15 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:06:16 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:06:15 INFO  Closing debug server tcp://0.0.0.0:49619
+2022.12.06 00:06:22 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:06:24 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.06 00:06:24 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 19m 13.055s)
+2022.12.06 00:06:24 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:06:24 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details
+2022.12.06 00:06:24 INFO  time: compiled root-2022 in 61ms
+2022.12.06 00:06:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:06:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:06:24 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:06:25 INFO  Trying to attach to remote debuggee VM localhost:49642 .
+2022.12.06 00:06:25 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:06:26 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:06:25 INFO  Closing debug server tcp://0.0.0.0:49636
+2022.12.06 00:06:57 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:12 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:07:13 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:12 INFO  time: compiled root-2022 in 0.28s
+2022.12.06 00:07:13 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:14 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:16 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:16 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:16 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:16 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:17 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:21 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:22 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+Dec 06, 2022 12:07:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 950
+Dec 06, 2022 12:07:22 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 951
+2022.12.06 00:07:22 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:23 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:24 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:26 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:07:26 INFO  time: compiled root-2022 in 0.18s
+2022.12.06 00:07:27 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:29 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:29 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:29 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:29 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:29 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:29 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:30 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:31 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:32 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:33 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+Dec 06, 2022 12:07:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1000
+2022.12.06 00:07:33 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:35 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:36 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:07:36 INFO  time: compiled root-2022 in 0.16s
+2022.12.06 00:07:36 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:41 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:41 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:07:41 INFO  time: compiled root-2022 in 0.15s
+2022.12.06 00:07:41 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+Dec 06, 2022 12:07:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1031
+2022.12.06 00:07:50 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:52 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:53 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:54 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:07:54 INFO  time: compiled root-2022 in 0.12s
+2022.12.06 00:07:54 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:58 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:07:58 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:11 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:20 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:08:20 INFO  time: compiled root-2022 in 0.11s
+2022.12.06 00:08:20 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:22 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:23 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:23 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:25 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:26 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:26 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:26 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:27 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:28 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:28 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:29 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:31 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:31 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:32 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:32 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:34 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:35 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:35 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:36 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:36 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:36 WARN  Could not load snapshot text for /Users/francisco/Documents/francisco/Advent-of-code/2022/src/main/scala/Day3/Day3.scala
+2022.12.06 00:08:37 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:08:37 INFO  time: compiled root-2022 in 0.9s
+2022.12.06 00:08:39 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 21m 28.086s)
+2022.12.06 00:08:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:08:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:08:39 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:08:40 INFO  Trying to attach to remote debuggee VM localhost:49721 .
+2022.12.06 00:08:40 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:08:41 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:08:40 INFO  Closing debug server tcp://0.0.0.0:49716
+2022.12.06 00:08:51 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:08:51 INFO  time: compiled root-2022 in 0.69s
+2022.12.06 00:08:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:08:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:08:52 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:08:53 INFO  Trying to attach to remote debuggee VM localhost:49740 .
+2022.12.06 00:08:53 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:08:54 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:08:53 INFO  Closing debug server tcp://0.0.0.0:49735
+2022.12.06 00:09:17 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 22m 5.723s)
+2022.12.06 00:09:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:09:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:09:17 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:09:18 INFO  Trying to attach to remote debuggee VM localhost:49760 .
+2022.12.06 00:09:18 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:09:18 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:09:18 INFO  Closing debug server tcp://0.0.0.0:49755
+Dec 06, 2022 12:10:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1449
+2022.12.06 00:11:24 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:11:24 INFO  time: compiled root-2022 in 0.78s
+2022.12.06 00:11:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:11:26 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:11:26 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:11:27 INFO  Trying to attach to remote debuggee VM localhost:49828 .
+2022.12.06 00:11:27 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:11:27 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:11:27 INFO  Closing debug server tcp://0.0.0.0:49823
+2022.12.06 00:11:46 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 24m 34.858s)
+2022.12.06 00:11:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:11:46 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:11:46 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:11:47 INFO  Trying to attach to remote debuggee VM localhost:49847 .
+2022.12.06 00:11:47 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:11:47 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:11:47 INFO  Closing debug server tcp://0.0.0.0:49842
+2022.12.06 00:12:15 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:12:15 INFO  time: compiled root-2022 in 0.97s
+2022.12.06 00:12:20 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:12:20 INFO  time: compiled root-2022 in 0.65s
+2022.12.06 00:12:25 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:12:25 INFO  time: compiled root-2022 in 0.63s
+2022.12.06 00:12:27 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 25m 15.71s)
+2022.12.06 00:12:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:12:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:12:27 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:12:28 INFO  Trying to attach to remote debuggee VM localhost:49884 .
+2022.12.06 00:12:28 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:12:28 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:12:28 INFO  Closing debug server tcp://0.0.0.0:49879
+2022.12.06 00:12:56 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:12:56 INFO  time: compiled root-2022 in 0.67s
+2022.12.06 00:12:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:12:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:12:58 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:12:59 INFO  Trying to attach to remote debuggee VM localhost:49905 .
+2022.12.06 00:12:59 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:12:59 INFO  Closing debug server tcp://0.0.0.0:49901
+2022.12.06 00:12:59 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:13:17 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:13:17 INFO  time: compiled root-2022 in 0.61s
+2022.12.06 00:13:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:13:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:13:18 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:13:19 INFO  Trying to attach to remote debuggee VM localhost:49929 .
+2022.12.06 00:13:19 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:13:20 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:13:19 INFO  Closing debug server tcp://0.0.0.0:49924
+2022.12.06 00:13:40 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:13:40 INFO  time: compiled root-2022 in 0.92s
+2022.12.06 00:13:42 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 26m 30.905s)
+2022.12.06 00:13:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:13:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:13:42 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:13:43 INFO  Trying to attach to remote debuggee VM localhost:49948 .
+2022.12.06 00:13:43 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:13:43 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:13:43 INFO  Closing debug server tcp://0.0.0.0:49945
+2022.12.06 00:14:01 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:14:02 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 26m 51.032s)
+2022.12.06 00:14:02 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:14:03 INFO  time: compiled root-2022 in 1.13s
+2022.12.06 00:14:03 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 26m 52.223s)
+2022.12.06 00:14:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:14:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:14:03 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:14:04 INFO  Trying to attach to remote debuggee VM localhost:49968 .
+2022.12.06 00:14:04 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:14:05 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:14:04 INFO  Closing debug server tcp://0.0.0.0:49963
+2022.12.06 00:14:18 INFO  Deduplicating compilation of root-2022 from bsp client 'Metals 0.11.9' (since 27m 7.179s)
+2022.12.06 00:14:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:14:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:14:18 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:14:18 INFO  Trying to attach to remote debuggee VM localhost:49991 .
+2022.12.06 00:14:18 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:14:19 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:14:19 INFO  Closing debug server tcp://0.0.0.0:49986
+Dec 06, 2022 12:18:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2212
+Dec 06, 2022 12:19:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2426
+2022.12.06 00:19:27 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:19:27 INFO  time: compiled root-2022 in 0.61s
+2022.12.06 00:19:44 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:19:44 INFO  time: compiled root-2022 in 0.64s
+Exception in thread "pool-7-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.12.06 00:19:58 INFO  compiling root-2022 (1 scala source)
+2022.12.06 00:19:58 INFO  time: compiled root-2022 in 0.72s
+2022.12.06 00:20:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-server.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.12.06 00:20:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/francisco/Documents/francisco/Advent-of-code/2022/.metals/dap-client.trace.json or /Users/francisco/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.12.06 00:20:00 INFO  Starting debug proxy for [Day1.Day3]
+2022.12.06 00:20:01 INFO  Trying to attach to remote debuggee VM localhost:50080 .
+2022.12.06 00:20:01 INFO  Attaching to debuggee VM succeeded.
+2022.12.06 00:20:01 INFO  Canceling debug proxy for [Day1.Day3]
+2022.12.06 00:20:01 INFO  Closing debug server tcp://0.0.0.0:50076
